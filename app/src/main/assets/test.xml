@@ -1,0 +1,111 @@
+<template>
+    <templateid>00002</templateid>
+    <layout>
+        <width>686px</width>
+        <heigth>0</heigth>
+        <orientation>1</orientation>
+        </background>
+            <layout>
+                <width>686px</width>
+                <heigth>0</heigth>
+                <background>0000FF</background>
+                <orientation>2</orientation>
+                    <image>
+                        <value>&{ logopic }</value>
+                        <shape>2</shape>
+                        <width>36px</size>
+                        <heigth>36px</heigth>
+                        <margin_left>16px</ margin_left>
+                        <margin_right>16px</ margin_right>
+                        <margin_top>10px</ margin_top>
+                        <margin_bottom>10px</ margin_bottom>
+                         <align>1</align>
+                     </image>
+                    <text>
+                        <value>&{title}</value>
+                        <margin_left>16px</ margin_left>
+                        <margin_right>16px</ margin_right>
+                        <margin_top>10px</ margin_top>
+                        <margin_bottom>10px</ margin_bottom>
+                        <color>FFFFFF</color>
+                        </background>
+                        <size>24px</size>
+                        <align>1</align>
+                        <singleLine>1</singleLine>
+                    </text>
+                </layout>
+                <layout>
+                    <width>686px</width>  
+                    <heigth>0</heigth>
+                    </background>
+                    <orientation>1</orientation>
+                        <image>
+                            <value>&{ bodypic1}</value>
+                            <shape>1</shape>
+                            <width>160px</size>
+                            <heigth>160px</heigth>
+                            <margin_left>16px</ margin_left>
+                            <margin_right>16px</ margin_right>
+                            <margin_top>10px</ margin_top>
+                            <margin_bottom>10px</ margin_bottom>
+                            <align>2</align>
+                        </image>
+                        <text>
+                            <value>&{keyword1}</value>
+                            <color>FF0000</color>
+                            </background>
+                            <size>36px</size>
+                            <align>2</align>
+                            <singleLine>1</singleLine>
+                            <margin_left>16px</ margin_left>
+                            <margin_right>16px</ margin_right>
+                            <margin_top>10px</ margin_top>
+                            <margin_bottom>10px</ margin_bottom>
+                        </text>
+
+                        <text>
+                            <value>&{keyword2}</value>
+                            <color>000000</color>
+                            </background>
+                            <size>24px</size>
+                            <align>2</align>
+                            <singleLine>1</singleLine>
+                            <margin_left>16px</ margin_left>
+                            <margin_right>16px</ margin_right>
+                            <margin_top>10px</ margin_top>
+                            <margin_bottom>10px</ margin_bottom>
+                        </text>
+                    </layout>
+                    <line>
+                        <length>686</ length>
+                        <color>000000</color>
+                        <size>16px</size>
+                        <orientation>2</ orientation>
+                        <align>2</align>
+                        <margin_left>0</ margin_left>
+                        <margin_right>0</ margin_right>
+                        <margin_top>0</ margin_top>
+                        <margin_bottom>0</ margin_bottom>
+                    </line>
+
+                    <layout>
+                        <width>686px</width>  
+                        <heigth>0</heigth>
+                        </background>
+                        <orientation>2</orientation>
+                            <button>
+                                <value>&{ btnname1}</value>
+                                <color>000000</color>
+                                <size>24px</size>
+                                <align>2</align>
+                            </button>
+                            <button>
+                                <value>&{ btnname2}</value>
+                                <color>000000</color>
+                                <size>24px</size>
+                                <align>2</align>
+                            </button>
+                    </layout>
+                </layout>
+        </template>
+</template>
