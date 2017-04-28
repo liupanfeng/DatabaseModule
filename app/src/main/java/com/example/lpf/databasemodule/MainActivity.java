@@ -1,9 +1,9 @@
 package com.example.lpf.databasemodule;
 
 import android.app.Activity;
-import android.content.Intent;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
+import android.util.Log;
 
 /**
  * 本工程用于总结数据库模块
@@ -17,11 +17,8 @@ public class MainActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-        Intent intent=getIntent();
-        intent.getBundleExtra("");
-        Bundle bundle=intent.getExtras();
-        if(activity instanceof TestActivity){
+        String xmlStr=XMLParseHelper.getXmlStr(this,"test.xml");
+        Log.v("lpf","xmlStr:"+xmlStr);
 
-        }
     }
 }
