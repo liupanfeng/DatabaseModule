@@ -15,8 +15,9 @@ android:layout_marginTop="10dp"
 android:layout_marginBottom="10dp"
 android:background="#0000FF"
 android:textSize="24sp"
-android:layout_gravity="left"
+android:layout_gravity=""
 android:singleLine="true"
 android:ellipsize="end"
+
 />
 </LinearLayout>

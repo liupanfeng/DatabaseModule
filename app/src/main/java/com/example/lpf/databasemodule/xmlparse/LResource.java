@@ -28,7 +28,7 @@ public class LResource {
             map.put("margin_right", ParamValue.margin_right);
             map.put("margin_top", ParamValue.margin_top);
             map.put("margin_bottom", ParamValue.margin_bottom);
-            map.put("align", ParamValue.align);
+            map.put("horizontal_align", ParamValue.horizontal_align);
             map.put("text", ParamValue.text);
             map.put("color", ParamValue.color);
             map.put("size", ParamValue.size);

@@ -19,7 +19,7 @@ public enum ParamValue {
       margin_right,
       margin_top,
       margin_bottom,
-      align,
+      horizontal_align,
       text,
       color,
       size,
