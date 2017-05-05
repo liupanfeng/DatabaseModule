@@ -1,0 +1,47 @@
+<template>
+    <templateid>a00002</templateid>
+    <layout>
+        <width>658px</width>
+        <heigth>match_parent</heigth>
+        <orientation>1</orientation>
+        <end>1</end>
+    <layout>
+        <width>658px</width>
+        <heigth>116px</heigth>
+        <background>9a0015</background>
+        <orientation>2</orientation>
+        <end>1</end>
+        <image>
+            <value>http://10.116.33.21/iap_web/001234569.png</value>
+            <shape>2</shape>
+            <width>48px</width>
+            <heigth>48px</heigth>
+            <margin_left>32px</margin_left>
+            <horizontal_align>1</horizontal_align>
+            <vertical_align>2</vertical_align>
+        </image>
+
+        <text>
+            <value>中国银行信用卡账单</value>
+            <margin_left>92px</margin_left>
+            <color>ffffff</color>
+            <size>32px</size>
+            <single_line>1</single_line>
+        </text>
+    </layout>
+        <text>
+            <value>111</value>
+            <color>00ff00</color>
+            <margin_left>16px</margin_left>
+            <margin_right>16px</margin_right>
+            <margin_top>10px</margin_top>
+            <margin_bottom>10px</margin_bottom>
+            <background>0000FF</background>
+            <size>24px</size>
+            <align>1</align>
+            <singleLine>1</singleLine>
+        </text>
+
+
+    </layout>
+</template>

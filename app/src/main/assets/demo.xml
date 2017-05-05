@@ -1,0 +1,33 @@
+<template>
+    <templateid>00002</templateid>
+    <layout>
+        <width>686px</width>
+        <heigth>0</heigth>
+        <orientation>2</orientation>
+        <background>0000FF</background>
+        <end>1</end>
+        <image>
+            <value>222</value>
+            <shape>2</shape>
+            <width>36px</width>
+            <heigth>36px</heigth>
+            <margin_left>16px</margin_left>
+            <margin_right>16px</margin_right>
+            <margin_top>10px</margin_top>
+            <margin_bottom>10px</margin_bottom>
+            <align>1</align>
+        </image>
+        <text>
+            <value>111</value>
+            <margin_left>16px</margin_left>
+            <margin_right>16px</margin_right>
+            <margin_top>10px</margin_top>
+            <margin_bottom>10px</margin_bottom>
+            <color>FFFFFF</color>
+            <background>0000FF</background>
+            <size>24px</size>
+            <align>1</align>
+            <singleLine>1</singleLine>
+        </text>
+    </layout>
+</template>
